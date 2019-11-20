@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	width: 500px;
+	background-color: skyblue;
+	height: 300px;
+	overflow: hidden; /*溢出隐藏 可以将最右边的多余的边框压住*/
+}
+ul{
+	width: 505px; /*给ul一个宽度可以将5个li并排放下*/
+}
+li{
+	height: 100px;
+	width: 100px;
+	border-right: 1px solid red;
+	border-bottom: 1px solid red;
+	float: left;
+	list-style: none;
+	background-color: pink;
+}
+</style>
+</head>
+<body>	
+	<div>
+		<ul>
+			<a href="#"><li></li></a>
+			<a href="#"><li></li></a>
+			<a href="#"><li></li></a>
+			<a href="#"><li></li></a>
+			<a href="#"><li></li></a>
+			<a href="#"><li></li></a>
+			<a href="#"><li></li></a>
+			<a href="#"><li></li></a>
+			<a href="#"><li></li></a>
+			<a href="#"><li></li></a>
+			<a href="#"><li></li></a>
+			<a href="#"><li></li></a>
+			<a href="#"><li></li></a>
+			<a href="#"><li></li></a>
+			<a href="#"><li></li></a>	
+		</ul>
+	</div>
+</body>
+</html>
